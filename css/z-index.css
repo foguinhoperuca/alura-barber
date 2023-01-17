@@ -1,0 +1,30 @@
+div {
+	border: 2px solid black;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	height: 200px;
+	padding: 20px;
+	position: fixed;
+	width: 200px;
+}
+
+#square01 {
+	background-color: #FF00AA;
+	left: 50px;
+	top: 50px;
+	z-index: 0;
+}
+
+#square02 {
+	background-color: #00FF00;
+	left: 100px;
+	top: 100px;
+	z-index: 1;
+}
+
+#square03 {
+	background-color: #F0A000;
+	left: 150px;
+	top: 150px;
+	z-index: 2;
+}
