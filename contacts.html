@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Contacts - Alura's Barber</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- JUST FOR DEV PURPOSE - node livereload -->
+	<script async>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  </head>
+  <body>
+	<header>
+      <div class="box">
+        <h1>
+          <img alt="Logo Alura's Barber" src="img/logo.png"/>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+          </nav>
+        </h1>
+      </div>
+	</header>
+	<main>
+      <form>
+        <label for="name">Name Full</label>
+        <input id="name" type="text" class="default-input" value="" required />
+
+        <label for="email">E-mail</label>
+        <input id="email" type="email" class="default-input" value="" required placeholder="you@exemple.com" />
+
+        <label for="phone">Phone</label>
+        <input id="phone" type="tel" class="default-input" value="" required placeholder="(99) 9999-9999" />
+
+		<label for="message">Message</label>
+		<textarea cols="70" id="message" rows="10" class="input-default" required></textarea>
+
+		<fieldset>
+		  <legend>How do you preferer to talk with us?!</legend>
+		  <label for="radio-email"><input id="radio-email" name="contact" type="radio" value="email">E-mail</input></label>
+		  <label for="radio-phone"><input id="radio-phone" name="contact" type="radio" value="phone">Phone</input></label>
+		  <label for="radio-whatsapp"><input id="radio-whatsapp" name="contact" type="radio" value="whatsapp" checked>Whatsapp</input></label>
+		</fieldset>
+
+		<fieldset>
+		  <legend>
+			Which time we can contact you?
+		  </legend>
+		  <select id="" name="">
+            <option value="">Morning</option>
+            <option value="">Afternoon</option>
+            <option value="">Night</option>
+		  </select>
+		  
+		</fieldset>
+
+		<label class="checkbox" for="">
+		  <input name="" type="checkbox" value="" checked />
+		  Would you like to recieve our news in your mailbox?
+		</label>
+		
+        <input type="submit" class="send" value="Send Form"/>
+      </form>
+
+	  <table>
+		<caption><marquee>Opened At</marquee></caption>
+		<thead>
+		  <tr>
+			<th>Day</th>
+			<th>Time</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td>Monday</td>
+			<td>8:00 ~ 20:00</td>
+		  </tr>
+		  <tr>
+			<td>Wednesday</td>
+			<td>8:00 ~ 20:00</td>
+		  </tr>
+		  <tr>
+			<td>Friday</td>
+			<td>8:00 ~ 20:00</td>
+		  </tr>
+		</tbody>
+	  </table>
+	</main>
+	<footer>
+      <img alt="Logo Alura's Barber" src="img/logo-branco.png"/>
+      <p class="copyright">&copy Copyright Alura Cursos Online - Alura Barber - 2019.</p>
+	</footer>
+  </body>
+</html>

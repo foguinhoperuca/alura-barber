@@ -25,8 +25,7 @@ nav a {
 	color: #000000;
 	font-weight: bold;
 	font-size: 26px;
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 
 .products {
@@ -91,4 +90,74 @@ footer {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px; 0 0;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.default-input {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.send {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 2s all;
+	cursor: pointer;
+
+	/* /\* FIXME form margin isn't working *\/ */
+	/* margin: 0 40px; */
+}
+
+.send:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 40px;
+}
+
+table caption {
+	color: #335555;
+	font-weight: bold;
+	font-size: 35px;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+
+thead {
+	background: #555555;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
 }
