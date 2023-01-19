@@ -1,21 +1,3 @@
-@media screen and (max-width: 480px) {
-	.box, .main, .benefits-content, .map-content, .video {
-		width: auto;
-	}
-
-	h1 {
-		text-align: center;
-	}
-
-	nav {
-		position: static;
-	}
-
-	.benefits-list, image-benefits {
-		width: 100%;
-	}
-}
-
 body {
 	font-family: 'Montserrat', sans-serrif;
 }
@@ -299,9 +281,34 @@ td, th {
 	width: 60%;
 	opacity: 1;
 	transition: 400ms;
-	box-shadow: 10px 10px 10px 0 #000000, 10px 10px #CCCCCC;
+	/* box-shadow: 10px 10px 10px 0 #000000, 10px 10px #CCCCCC, -15px -15px #FFAAFF; */
+	box-shadow: 10px 10px 10px 0 #000000;
 }
 
 .image-benefits:hover {
 	opacity: 0.5;
+}
+
+/*
+ *
+ * mobile
+ *
+ */
+
+@media screen and (max-width: 480px) {
+	.box, .main, .benefits-content, .map-content, .video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.benefits-list, image-benefits {
+		width: 100%;
+	}
 }
